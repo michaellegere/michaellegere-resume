@@ -3,6 +3,11 @@
     scroll-behavior: smooth;
 }
 
+.dark-mode {
+    color: white;
+    background-color: #262934;
+}
+
 /* Navigation */
 
 nav {
