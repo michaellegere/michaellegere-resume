@@ -3,6 +3,8 @@
     scroll-behavior: smooth;
 }
 
+/* Navigation */
+
 nav {
     color: dodgerblue;
     text-decoration: none;
@@ -75,6 +77,8 @@ nav.navbar a:visited {
     background-color: rgb(200, 200, 200);
 }
 
+/* Pseudo-breadcrumb Navigation */
+
 .nav-scroll {
     z-index: 2;
     position: sticky;
@@ -99,7 +103,8 @@ nav.navbar a:visited {
 }
 
 .home-frame {
-    display:flexbox;
+    display: flex;
+    flex-direction: column;
     font-family: inherit;
     min-height: 100vh;
     min-width: 100vh;
@@ -255,9 +260,10 @@ header .card {
 }
 
 .card-mini {
-    display: flex; 
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-    padding: 10px;
+    padding: 3vh;
 }
 
 .link {
@@ -287,4 +293,129 @@ table a {
 
 #nav-sticky li+li::before {
     content: "|";
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mobile-break {
+    display: none;
+}
+
+@media screen and (max-device-width: 400px) {
+    
+    .container {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+    
+    nav.navscroll {
+        display: none;
+    }
+
+    .flex-wrapper {
+        flex-direction: row;
+    }
+
+    .mobile-hide, .scroll-button > .up-icon, .scroll-button > .down-icon {
+        display: none;
+    }
+
+    .scroll-button > .up-icon {
+        padding-top: 5vh;
+    }
+
+    .scroll-button > .down-icon {
+        padding-bottom: 5vh;
+    }
+
+    .home-frame {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-frame {
+        max-width: 400px;
+        margin: 8vh 0;
+    }
+
+    .navbar ul {
+        z-index: 3;
+        position: absolute;
+        height: 6vh;
+        width: 100vh;
+    }
+
+    #frame-5 {
+        padding-top: 30vh;
+    }
+
+    #contact h3 {
+        line-height: 2;
+    }
+
+}
+
+@media screen and (max-device-width: 820px) {
+    .container {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+    
+    nav.navscroll {
+        display: none;
+    }
+
+    .flex-wrapper {
+        flex-direction: row;
+    }
+
+    .mobile-hide, .scroll-button > .up-icon, .scroll-button > .down-icon {
+        display: none;
+    }
+
+    .scroll-button > .up-icon {
+        padding-top: 5vh;
+    }
+
+    .scroll-button > .down-icon {
+        padding-bottom: 5vh;
+    }
+
+    .home-frame {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-frame {
+        max-width: 400px;
+        margin: 8vh 0;
+    }
+
+    .navbar ul {
+        z-index: 3;
+        position: absolute;
+        height: 6vh;
+        width: 100vh;
+    }
+
+    #frame-5 {
+        padding-top: 30vh;
+    }
+
+    #contact h3 {
+        line-height: 2;
+    }
 }

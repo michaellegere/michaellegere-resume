@@ -3,7 +3,7 @@
     <head>
         <title>michael's website</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width"> 
         <link rel="stylesheet" href="style.css">
     </head>
     
@@ -28,7 +28,7 @@
 
         </nav>
 
-        <nav class="nav-scroll">
+        <nav class="nav-scroll mobile-hide">
             <ul id="nav-sticky">
                 <li>
                     <a href="#navbar">Welcome</a>
@@ -83,9 +83,13 @@
 
             <hr />
 
-            <img class="intro-images" src="pics/frame-2-pic-1.JPG" alt="Me at my sister's wedding.">
-            <img class="intro-images" src="pics/frame-2-pic-2.jpeg" alt="Me in the Subway - MBTA Green Line!">
-            <img class="intro-images" src="pics/frame-2-pic-3.jpeg" alt="My guitar - an American Tele!">
+            <div class="flex-wrapper">
+
+                <img class="intro-images" src="pics/frame-2-pic-1.JPG" alt="Me at my sister's wedding.">
+                <img class="intro-images mobile-hide" src="pics/frame-2-pic-2.jpeg" alt="Me in the Subway - MBTA Green Line!">
+                <img class="intro-images" src="pics/frame-2-pic-3.jpeg" alt="My guitar - an American Tele!">
+
+            </div>
             <br />
 
             <br />
@@ -170,34 +174,44 @@
             <p>Monitor group email and phone for incoming support requests; provide direct and efficient technical support to Humanities Departments; Maintain repertoire with 300+ clients and conduct regular maintenance checks; Image new hardware; install, update, and maintain software across new and old devices; Work with Hardware Repair, Techcycle/BCCR Computer Replacement, and other IT Departments, <a class="link" href="https://docs.google.com/document/d/1m1GP5l_qORBYjpWqiQMcbGRRBtUdVWEWNb9ZYXqIPfA/edit?usp=sharing"> Maintained my own documentation</a>.</p>
             <br />
 
-            <table>
-                <tr>
-                    <th span="3">
-                        <h3><a href="https://github.com/michaellegere/" style="text-decoration: none;">Github</a></h3>
-                    </th>
-                    <th></th>
-                    <th></th>
+            <div class="flex-wrapper">
+                <table>
+                    <tr>
+                        <th span="3">
+                            <h3><a href="https://github.com/michaellegere/" style="text-decoration: none;">Github</a></h3>
+                        </th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/michaellegere/michaellegere.github.io" target="_blank"><h5>michaellegere.github.io &nbsp;</h5></a></td>
+                        <td><a href="https://github.com/michaellegere/exhibithalls" target="_blank"><h5>exhibithalls.io &nbsp;</h5></a></td>
+                        <td><a href="https://github.com/michaellegere/react-doc-project" target="_blank"><h5>React Documentation Project &nbsp;</h5></a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/michaellegere/alternate.homescreen" target="_blank"><h5>alternate homescreen &nbsp;</h5></a></td>
+                        <td><a href="https://github.com/michaellegere/ToDoProject" target="_blank"><h5>to-do &nbsp;</h5></a></td>
+                        <td><a href="https://github.com/michaellegere/django-doc-project" target="_blank"><h5>Django Documentation Project &nbsp;</h5></a></td>
+                    </tr>
+                </table>
 
-                    <th span="2">
-                        <h3>Certificates</h3>
-                    </th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <td><a href="https://github.com/michaellegere/michaellegere.github.io" target="_blank"><h5>michaellegere.github.io &nbsp;</h5></a></td>
-                    <td><a href="https://github.com/michaellegere/exhibithalls" target="_blank"><h5>exhibithalls.io &nbsp;</h5></a></td>
-                    <td><a href="https://github.com/michaellegere/react-doc-project" target="_blank"><h5>React Documentation Project &nbsp;</h5></a></td>
-                    <td><h5>In Progress: Google IT Support Professional Certificate, Google &nbsp;</h5></td>
-                    <td><a href="https://www.freecodecamp.org/certification/fcc5e96dc33-9813-4e86-907d-799c5e050652/responsive-web-design" target="_blank"><h5>Responsive Web Design, freeCodeCamp.org</h5></a></td>
-                </tr>
-                <tr>
-                    <td><a href="https://github.com/michaellegere/alternate.homescreen" target="_blank"><h5>alternate homescreen &nbsp;</h5></a></td>
-                    <td><a href="https://github.com/michaellegere/ToDoProject" target="_blank"><h5>to-do &nbsp;</h5></a></td>
-                    <td><a href="https://github.com/michaellegere/django-doc-project" target="_blank"><h5>Django Documentation Project &nbsp;</h5></a></td>
-                    <td><h5>In Progress: Full-Stack Web Development Career Path, Codecadmey &nbsp;</h5></td>
-                    <td><a href="https://www.codecademy.com/profiles/michaellegere/certificates/4ccef8d532484ea2aeec3b3b3dbb4f9c" target="_blank"><h5>Introduction to UI and UX Design, Codecademy</h5></a></td>
-                </tr>
-            </table>
+                <table>
+                    <tr>
+                        <th span="2">
+                            <h3>Certificates</h3>
+                        </th>
+                        <th></th>  
+                    </tr>
+                    <tr>
+                        <td><h5>In Progress: Google IT Support Professional Certificate, Google &nbsp;</h5></td>
+                        <td><a href="https://www.freecodecamp.org/certification/fcc5e96dc33-9813-4e86-907d-799c5e050652/responsive-web-design" target="_blank"><h5>Responsive Web Design, freeCodeCamp.org</h5></a></td>
+                    </tr>
+                    <tr>
+                        <td><h5>In Progress: Full-Stack Web Development Career Path, Codecadmey &nbsp;</h5></td>
+                        <td><a href="https://www.codecademy.com/profiles/michaellegere/certificates/4ccef8d532484ea2aeec3b3b3dbb4f9c" target="_blank"><h5>Introduction to UI and UX Design, Codecademy</h5></a></td>
+                    </tr>
+                </table> 
+            </div>
 
             <h5>Competencies Gained: </h5>
             <p>Languages - HTML5, CSS, Javascript, Python; Frameworks - Bootstrap, Vue.js, React, Django; OS - Windows, MacOS, + iOS; Microsoft Office + G-Suite; Network - Cisco, DNS, + TCP/IP; Cloud: Code42, OneDrive, Google Drive; Security - Sophos; Classroom/Conference Room Support.</p>
@@ -294,16 +308,20 @@
                     <h3>That's it for now! From here, feel free to:</h3>
                 </div>
 
-                <div class="card-mini link">
-                    <a href="resume.html"><h3>Check out my Resume</h3></a>
-                </div>
+                <div class="flex-wrapper">
 
-                <div class="card-mini link">
-                    <a href="contact.html"><h3>Send me an email</h3></a>
-                </div>
+                    <div class="card-mini link">
+                        <a href="resume.html"><h3>Check out my Resume</h3></a>
+                    </div>
+    
+                    <div class="card-mini link">
+                        <a href="contact.html"><h3>Send me an email</h3></a>
+                    </div>
+    
+                    <div class="card-mini link">
+                        <a href="#navbar"><h3>Start the page over</h3></a>
+                    </div>
 
-                <div class="card-mini link">
-                    <a href="#navbar"><h3>Start the page over</h3></a>
                 </div>
 
                 <br />
