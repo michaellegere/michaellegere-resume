@@ -1,0 +1,14 @@
+.primary-button {
+    padding: 1rem 1.5rem;
+    margin: 0.5rem;
+    width: 35vw;
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 1.5rem;
+    box-shadow: rgba(50, 50, 50, 0.1) 3px 8px 10px 5px;
+}
+
+.primary-button:active {
+    background-color: #1369d1;
+}

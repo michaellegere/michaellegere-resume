@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+/*
+    Table of Contents:
+    1. Resets
+    2. Variables
+    3. Classes
+    4. Layout
+
+*/
+
+/* Resets */
+
+* {
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html, body {
+    min-height: 100%;
+    background: #fff;
+    color: #000;
+    padding: 0;
+    margin: 0;
+
+    scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 1.4rem;
+    text-rendering: optimizeLegibility;
+
+    color: var(--color);
+    background-color: var(--primaryColorOne);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1,
+h2 {
+    padding: 1rem 0;
+    font-weight: lighter;
 }
 
-.App-link {
-  color: #61dafb;
+h3,
+h4,
+h5,
+h6 {
+    font-weight: lighter;
+    line-height: 1.4;
+
+    padding: 0;
+    margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+    font-size: 1rem;
 }
+
+ul, ol, dl {
+    margin: 0;
+}
+
+/* Variables */
+
+:root {
+    --primaryColorOne: #f6f6f6;
+    --primaryColorTwo: #f1f1f1;
+    --secondaryColor: dodgerblue;
+
+    --color: black;
+    --cardColor: #E4E4E5;
+}
+
+/* Classes */
+
+.dark-mode {
+    --primaryColorOne: #2C3639;
+    --primaryColorTwo: #3F4E4F;
+    --secondaryColor: dodgerblue;
+    --color: white;
+}
+
+/* Layout */
+
+.container {
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+

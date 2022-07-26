@@ -1,0 +1,15 @@
+.card {
+    padding: 1rem 1.5rem;
+    margin: 2rem auto;
+    width: 80vw;
+    border: none;
+    border-radius: 3rem;
+    box-shadow: rgba(50, 50, 50, 0.1) 3px 8px 10px 5px;
+}
+
+    .project-card:hover {
+        transition: scale(1.5);
+    }
+
+img {
+}
