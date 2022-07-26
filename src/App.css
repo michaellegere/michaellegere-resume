@@ -31,11 +31,12 @@ body {
 
     color: var(--color);
     background-color: var(--primaryColorOne);
+
 }
 
 h1,
 h2 {
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     font-weight: lighter;
 }
 
@@ -65,11 +66,18 @@ ul, ol, dl {
     --primaryColorTwo: #f1f1f1;
     --secondaryColor: dodgerblue;
 
+    --primaryColorOneTrans: #f6f6f6c9;
+
     --color: black;
     --cardColor: #E4E4E5;
 }
 
-/* Classes */
+/* Classes and Tags */
+
+main {
+    background-image: url('./components/pics/background-blobs-mobile.png');
+    background-attachment: fixed;
+}
 
 .dark-mode {
     --primaryColorOne: #2C3639;

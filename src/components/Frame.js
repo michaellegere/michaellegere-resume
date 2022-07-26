@@ -22,10 +22,11 @@ const Frame = props => {
             <h5>{props.datesThree}</h5>
             <p>{props.descriptionThree}</p>
 
-            <h5>{props.skills}</h5>
+            <p>{props.skills}</p>
 
             <br />
             <hr />
+            <br />
 
         </section>
     );

@@ -1,0 +1,7 @@
+footer {
+    position: relative;
+    bottom: 10vh;
+    font-size: 1.1rem;
+
+    padding: 0 2rem 0 0.4rem;
+}
