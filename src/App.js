@@ -8,13 +8,6 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 
-{/*
-import PrimaryButton from './components/buttons/PrimaryButton';
-import SecondaryButton from './components/buttons/SecondaryButton';
-import UpButton from './components/buttons/UpButton';
-import DownButton from './components/buttons/DownButton';
-*/}
-
 
 function App() {
 
