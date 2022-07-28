@@ -1,3 +1,13 @@
+a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+a:visited {
+    text-decorration: none;
+    color: dodgerblue;
+}
+
 .spotify {
     margin: 1.5rem 0.5rem;
 }

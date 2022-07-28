@@ -9,8 +9,8 @@ function Contact() {
 
                 <div className="frame">
 
-                    <h3>You can reach me best at mlegere18@gmail.com or my BC email at legerem@bc.edu.</h3>
-                    <h5>Feel free to reach out via <a href="https://www.linkedin.com/in/michael-legere/">Linkedin</a> as well!</h5>
+                    <h3>You can reach me best at {<a href='mailto:mlegere18@gmail.com'>mlegere18@gmail.com</a>} or my BC email at {<a href='mailto:legerem@bc.edu'>legerem@bc.edu</a>}.</h3>
+                    <h5>Feel free to reach out via {<a href="https://www.linkedin.com/in/michael-legere/">Linkedin</a>} as well!</h5>
 
                     <br />
                     <h3>Waiting to hear back? Enjoy some music in the meantime!</h3>
