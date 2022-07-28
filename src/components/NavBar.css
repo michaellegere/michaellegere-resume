@@ -4,34 +4,34 @@
 				bottom: 0;
 				background-color: var(--primaryColorTwo);
 
-				height:10vh;
+				height: 10vh;
 				width: 100%;
 				padding: 1rem 1.5rem;
 				margin: 0;
 }
 
-ul {
+.nav-bar ul {
 				display: flex;
 				justify-content: space-between;
 				text-align: center;
 				list-style: none;
-
 				padding: 0;
 				margin: 0;
 }
 
-li {
+.nav-bar li {
+				font-size: 1.4rem;
 				padding: 0 0.5rem 1rem 0.5rem;
 				margin: 0 auto;
 }
 
-a {
+.nav-bar a {
 				color: var(--color);
 				text-decoration: none;
 				height: 100%;
 				width: 100%;
 }
 
-a:visited {
+.nav-bar a:visited {
 				text-decoration: none;
 }

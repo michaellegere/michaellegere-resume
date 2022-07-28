@@ -4,6 +4,11 @@ import PrimaryButton from './buttons/PrimaryButton';
 
 const Hero = props => {
 
+    function darkMode() {
+        var element = document.getElementById('#root');
+        element.classList.toggle("dark-mode");
+    }
+
     return (
         <section className="hero">
 
@@ -14,7 +19,7 @@ const Hero = props => {
 
             <br />
 
-            <PrimaryButton text='Light/Dark Mode' onClick={props.func} />
+            {/* <PrimaryButton text='Light/Dark Mode' onClick={() => darkMode()} /> */} 
 
             <br />
 

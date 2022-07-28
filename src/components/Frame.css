@@ -1,7 +1,8 @@
 .frame {
-    min-height: 70vh;
+    min-height: 500px;
+    max-width: 400px;
     padding: 1rem;;
-    margin: 20vh 0;
+    margin-bottom: 15vh;
 
     border: 1px solid rgb(232, 232, 232, 0.50);
     border-radius: 40px;

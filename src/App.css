@@ -31,7 +31,10 @@ body {
 
     color: var(--color);
     background-color: var(--primaryColorOne);
-
+    background-image: url('./components/pics/background-blobs-mobile.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
 }
 
 h1,
@@ -59,6 +62,10 @@ ul, ol, dl {
     margin: 0;
 }
 
+hr {
+    color: 
+}
+
 /* Variables */
 
 :root {
@@ -75,8 +82,7 @@ ul, ol, dl {
 /* Classes and Tags */
 
 main {
-    background-image: url('./components/pics/background-blobs-mobile.png');
-    background-attachment: fixed;
+
 }
 
 .dark-mode {
@@ -93,4 +99,13 @@ main {
     margin: 0 auto;
 }
 
+/* Media Queries */
 
+/*
+@media screen and (min-width: 532px) {
+    body {
+        background-image: url('./components/pics/background-blobs-ipad.png');
+        background-size: cover;
+    }
+}
+*/

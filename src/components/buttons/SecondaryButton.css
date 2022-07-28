@@ -1,7 +1,11 @@
 .secondary-button {
-    padding: 1rem 1.5rem;
-    margin: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
     color: dodgerblue;
-    background-color: white;
+    background-color: rgb(250, 250, 250, 0.00);
     border: none;
+}
+
+.secondary-button:active {
+    color: #1369d1;
 }

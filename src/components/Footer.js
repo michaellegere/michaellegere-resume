@@ -1,16 +1,24 @@
 import './Footer.css';
+import { useNavigate } from 'react-router-dom';
+import PrimaryButton from './buttons/PrimaryButton';
+import SecondaryButton from './buttons/SecondaryButton';
 
 const Footer = props => {
+    let navigate = useNavigate();
+    const routeChange = () => {
+        let path = '/contact';
+        navigate(path);
+    }
+
     return (
-        <nav className='footer'>
-            <ul>
+        <footer className='footer'>
 
-                <li><a href='/'>Start the Page over<br /> &#8595; </a></li>
-                <li><a href='/'>Check out the PDF<br /> &#8595; </a></li>
-                <li><a href='/'>Contact Me<br /> &#8595; </a></li>
+            <h3>What next?</h3>
 
-            </ul>
-        </nav>
+            <PrimaryButton text='Contact Me' onClick={routeChange} />
+            <SecondaryButton text='View Resume PDF' onClick={routeChange} />
+
+        </footer>
     );
 }
 

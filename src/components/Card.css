@@ -7,9 +7,9 @@
     box-shadow: rgba(50, 50, 50, 0.1) 3px 8px 10px 5px;
 }
 
-    .project-card:hover {
-        transition: scale(1.5);
-    }
+.card:hover {
+    transition: scale(1.5);
+}
 
 img {
 }
