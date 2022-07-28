@@ -8,7 +8,7 @@ function Resume() {
         <>
             <main className='container'>
 
-                <img src={Resume2022} className='resume-img' />
+                <img src={Resume2022} className='resume-img' alt="My Resume" />
 
             </main>
         </>

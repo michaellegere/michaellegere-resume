@@ -17,15 +17,15 @@ function Contact() {
                     <br />
 
                     <div className="spotify">
-                        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO0DJSWk?utm_source=generator" width="100%" height="380" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO0DJSWk?utm_source=generator" title="Hippo Campus spotify playlist" width="100%" height="380" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                     </div>
 
                     <div className="spotify">
-                        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO12MI7u?utm_source=generator" width="100%" height="380" frameBorder="0"  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO12MI7u?utm_source=generator" title="Jim Croce spotify playlist" width="100%" height="380" frameBorder="0"  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                     </div>
 
                     <div className="spotify">
-                        <iframe src="https://open.spotify.com/embed/playlist/31FWVQBp3WQydWLNhO0ACi?utm_source=generator" width="100%" height="380" frameBorder="0"  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                        <iframe src="https://open.spotify.com/embed/playlist/31FWVQBp3WQydWLNhO0ACi?utm_source=generator" title="Lofi spotify playlist" width="100%" height="380" frameBorder="0"  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                     </div>
 
                 </div>
