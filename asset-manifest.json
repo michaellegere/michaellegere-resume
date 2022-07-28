@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/michaellegere.github.io/static/css/main.de3a5166.css",
-    "main.js": "/michaellegere.github.io/static/js/main.4078f25a.js",
-    "static/media/background-blobs-mobile.png": "/michaellegere.github.io/static/media/background-blobs-mobile.9236c0bf7eeed58f26fc.png",
-    "static/media/resume.png": "/michaellegere.github.io/static/media/resume.15f9964a4292790e71a5.png",
-    "static/media/headshot.png": "/michaellegere.github.io/static/media/headshot.4c93d246de908124c49c.png",
-    "index.html": "/michaellegere.github.io/index.html",
-    "main.de3a5166.css.map": "/michaellegere.github.io/static/css/main.de3a5166.css.map",
-    "main.4078f25a.js.map": "/michaellegere.github.io/static/js/main.4078f25a.js.map"
+    "main.css": "/michaellegere-resume/static/css/main.be875b47.css",
+    "main.js": "/michaellegere-resume/static/js/main.ef073e6e.js",
+    "static/media/background-blobs-mobile.png": "/michaellegere-resume/static/media/background-blobs-mobile.9236c0bf7eeed58f26fc.png",
+    "static/media/resume.png": "/michaellegere-resume/static/media/resume.15f9964a4292790e71a5.png",
+    "static/media/headshot.png": "/michaellegere-resume/static/media/headshot.4c93d246de908124c49c.png",
+    "index.html": "/michaellegere-resume/index.html",
+    "main.be875b47.css.map": "/michaellegere-resume/static/css/main.be875b47.css.map",
+    "main.ef073e6e.js.map": "/michaellegere-resume/static/js/main.ef073e6e.js.map"
   },
   "entrypoints": [
-    "static/css/main.de3a5166.css",
-    "static/js/main.4078f25a.js"
+    "static/css/main.be875b47.css",
+    "static/js/main.ef073e6e.js"
   ]
 }
