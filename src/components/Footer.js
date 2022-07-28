@@ -1,8 +1,9 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
 import './Footer.css';
+
+{/*
 import PrimaryButton from './buttons/PrimaryButton';
 import SecondaryButton from './buttons/SecondaryButton';
+*/}
 
 const Footer = () => {
 

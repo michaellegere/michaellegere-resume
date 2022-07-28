@@ -8,8 +8,6 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 
-import Card from './components/Card';
-
 {/*
 import PrimaryButton from './components/buttons/PrimaryButton';
 import SecondaryButton from './components/buttons/SecondaryButton';
@@ -29,9 +27,7 @@ function App() {
                 <Route path='/resume' element={<Resume />} />
                 <Route path='/contact' element={<Contact />} />
             </Routes>
-            <footer>
-                <Footer />
-            </footer>
+            <Footer />
           </>
         </Router>
   );

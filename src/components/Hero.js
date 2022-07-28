@@ -1,13 +1,16 @@
 import './Hero.css';
 import ImageOne from './pics/headshot.png';
-import PrimaryButton from './buttons/PrimaryButton';
+{/* import PrimaryButton from './buttons/PrimaryButton'; */}
+
 
 const Hero = props => {
 
+    {/*
     function darkMode() {
         var element = document.getElementById('#root');
         element.classList.toggle("dark-mode");
     }
+    */}
 
     return (
         <section className="hero">
